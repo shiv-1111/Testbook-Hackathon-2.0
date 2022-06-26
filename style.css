@@ -1,0 +1,113 @@
+*::after,*,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+}
+
+h1{
+    font-family: 'Water Brush', cursive;
+    font-size: 6rem;
+    text-shadow: 1px 1px whitesmoke, -1px -1px whitesmoke, -1px 1px whitesmoke, 1px -1px whitesmoke;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    text-shadow: 0.4px 0.4px royalblue, -0.4px -0.4px royalblue, -0.4px 0.4px royalblue, 0.4px -0.4px royalblue;
+}
+
+#mid_section{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    padding: 3rem;
+    padding-top: 0;
+    margin-bottom: 3rem;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* background: black; */
+}
+
+#main_container{
+    border-radius: 0;  
+    background-color: #F41F4E !important;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 5rem;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    /* justify-content: space-between; */
+    text-align: center;
+    background: rgb(106, 104, 104);
+    
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-family: 'Water Brush', cursive;
+    font-size: xxx-large;
+    background: #89DA59;
+    cursor: pointer;
+}
+
+#mid_section button{
+    /* font-family: monospace; */
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px black;
+}
+
+
+#footer_btn_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+#footer_btn_container button{
+    background:linear-gradient(#333,#000,#333);
+    color: white;
+    font-family: 'Courier New', Courier, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 2px 2px #333;
+}
+
+.btn_container{
+    /* border: 2px solid #89DA59; */
+    border: none;
+    height: 6rem;
+    width: 60%;
+}
+
+.btn_container:hover,#footer_btn_container button:hover{
+    transform: scale(1.03) translateY(3%);
+}
+
+.selected{
+    color: #89DA59 !important;
+}
+
+/* adds effect when button is clicked */
+button:active{
+    color: white !important;
+    background-color: #F41F4E;
+}
+
+
+/* declaring a  class named activated 
+   tp be added later dynamically */
+.activated{
+    color: white !important;
+    background-color: #F41F4E;
+}
