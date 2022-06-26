@@ -1,5 +1,6 @@
 # Testbook-Hackathon-2.0
-Testbook skillacademy 2nd hackathon project
+Testbook skillacademy 2nd hackathon project(drum kit)
+
 How to use record feature:-
 1.Press "record" button to start recording
 2.Create your music by using keys or by clicking on the buttons
