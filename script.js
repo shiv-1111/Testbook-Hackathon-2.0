@@ -99,9 +99,11 @@ function recordSound() {
 
 // save button event
 saveBtn.addEventListener('click', function () {
-    recordBtn.classList.remove('selected');
-    saveBtn.classList.add('selected');
-    saveBtn.innerHTML = "Recording Saved";
+    if (recordBtn.classList.contains('selected')) {
+        saveBtn.classList.add('selected');
+        saveBtn.innerHTML = "Recording Saved";
+        recordBtn.classList.remove('selected');
+    }
 })
 
 playSavedBtn.addEventListener('click', function () {

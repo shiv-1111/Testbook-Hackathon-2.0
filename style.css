@@ -7,7 +7,7 @@
 
 h1{
     font-family: 'Water Brush', cursive;
-    font-size: 6rem;
+    font-size: 5rem;
     text-shadow: 1px 1px whitesmoke, -1px -1px whitesmoke, -1px 1px whitesmoke, 1px -1px whitesmoke;
 }
 
@@ -22,18 +22,20 @@ p{
     display: flex;
     width: 100%;
     gap: 2rem;
-    padding: 3rem;
+    padding: 1rem;
     padding-top: 0;
     margin-bottom: 3rem;
 }
+
 body{
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center; 
     /* background: black; */
 }
+
 
 #main_container{
     border-radius: 0;  
@@ -44,10 +46,10 @@ body{
     gap: 5rem;
     height: 100%;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     /* justify-content: space-between; */
     text-align: center;
-    background: rgb(106, 104, 104);
+    /* background: rgb(106, 104, 104); */
     
 }
 
@@ -55,7 +57,7 @@ button{
     width: 100%;
     height: 100%;
     font-family: 'Water Brush', cursive;
-    font-size: xxx-large;
+    font-size: 3rem;
     background: #89DA59;
     cursor: pointer;
 }
@@ -71,7 +73,7 @@ button{
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 #footer_btn_container button{
